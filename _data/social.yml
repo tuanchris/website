@@ -1,7 +1,7 @@
 # This file contains meta data for various social media sites
 email:
   name: Email
-  icon: icon-mail2
+  icon: icon-envelop
   prepend: 'mailto:'
 amazon:
   name: Amazon
@@ -209,4 +209,4 @@ download:
 medium:
   name: Medium
   icon: icon-medium
-  prepend: "https://medium.com/@"
+  prepend: "https://https://medium.com/@"
