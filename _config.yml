@@ -54,7 +54,7 @@ menu:
   - title:             Blog
     url:               /blog/
   - title:             Books
-    url:               /books/
+    url:               https://www.goodreads.com/user/show/41478546-tuan-nguyen
   - title:             Projects
     url:               /projects/
   - title:             Resume
@@ -83,7 +83,7 @@ permalink:             /:categories/:year-:month-:day-:title/
 
 # Pagination configuration (used by the `blog` layout)
 paginate:              10
-paginate_path:         /page-:num/
+paginate_path:         /blog/page-:num/
 
 
 # Customizaton
