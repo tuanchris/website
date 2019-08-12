@@ -147,7 +147,7 @@ google_analytics:      207160675
 
 # Setting a disqus shortname will enable the comment section on
 # pages with `comments: true` in the front matter.
-disqus:                tuanchris
+disqus:                disqus_3yAHaIO198
 
 # Setting a tinyletter username will enable the newsletter subscription box.
 # tinyletter:            <tinyletter_username>
