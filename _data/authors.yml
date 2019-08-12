@@ -8,26 +8,20 @@ author1:
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-    Open `_data/authors.yml` to edit this text.
-
-    [Download Free][kit]
-    -- or --
-    [Buy PRO][buy]
-
-    [kit]: https://github.com/qwtel/hydejack-starter-kit/archive/v8.1.1.zip
-    [buy]: https://app.simplegoods.co/i/NATYVLYT
+    I am a data science manager with a background in finance and physics.
+    My professional experiences revolve around building and managing data science teams,
+    analytics infrastructure, and analytics use cases. I love to combine my passion
+    for data analytics and cloud computing to help businesses stay ahead in this
+    digital day and age. I have a wide range of interests including astronomy,
+    reading, music, and IoT.
 
   # This photo will be used in the about section
-  picture:
-    path:            https://placehold.it/128x128
-    # srcset is optional, but can be used to provide higher res versions for retina displays
-    srcset:
-      1x:            https://placehold.it/128x128
-      2x:            https://placehold.it/256x256
+  # picture:
+  #   path:            https://placehold.it/128x128
+  #   # srcset is optional, but can be used to provide higher res versions for retina displays
+  #   srcset:
+  #     1x:            https://placehold.it/128x128
+  #     2x:            https://placehold.it/256x256
 
   # Social media icons in sidebar
   # Comment/uncommet to show/hide
@@ -36,7 +30,9 @@ author1:
     # twitter:         tuankid
     github:          tuanchris
     linkedin:        tuanchris
+    medium:          tuannguyen_6512
     email:           anhtuan.nguyen@me.com
+
     # rss:             https://<url>/feed.xml
     # facebook:        <username>
     # google:          <number>
