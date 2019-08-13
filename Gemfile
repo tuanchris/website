@@ -19,7 +19,6 @@ group :jekyll_plugins do
   gem "jekyll-default-layout"
   gem "jekyll-feed"
   gem "jekyll-optional-front-matter"
-  gem "jekyll-paginate"
   gem "jekyll-readme-index"
   gem "jekyll-redirect-from"
   gem "jekyll-relative-links"
@@ -28,6 +27,7 @@ group :jekyll_plugins do
   gem "jekyll-titles-from-headings"
   gem "jekyll-replace-img"
   gem "jekyll-avatar"
+  gem "jekyll-paginate"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
