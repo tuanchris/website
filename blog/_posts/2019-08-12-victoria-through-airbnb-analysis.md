@@ -1,7 +1,11 @@
 ---
 layout: blog
 title: Victoria through Airbnb data
+image: https://miro.medium.com/max/1400/0*nMkXRd1n4qUFUvIP
+description: >
+I had a vacation recently to Victoria, an island in the British Colombia district of Canada and was blown away by the beauty of it. I set out to see what I can find from its Airbnb data.
 ---
+
 ## Introduction
 I had a vacation recently to Victoria, an island in the British Colombia district of Canada and was blown away by the beauty of it. We stayed at an Airbnb apartment in downtown Victoria and behold the beauty of the city:
 
