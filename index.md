@@ -1,8 +1,6 @@
 ---
-layout: blog
+layout: about
 title: Home
-description: >
-  Tuan Nguyen | Welcome to my blog! I'm a computer geek, a data guru, a cloud advocate, an amateur astronomer, an aspiring physicist, a writer, and a bookworm.
 cover: true
 ---
 I am a data-focused manager with a well-rounded skill set, focusing on data analytics, business intelligence and applied data science. My previous educations in physics and finance gave me a highly analytical and critical mindset when solving problems. My professional experiences revolve around mining data to create business value, often by coming up with my own projects and job descriptions.
