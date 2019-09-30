@@ -55,8 +55,8 @@ menu:
     url:               /blog/
   - title:             Books
     url:               https://www.goodreads.com/user/show/41478546-tuan-nguyen
-  - title:             Projects
-    url:               /projects/
+  # - title:             Projects
+  #   url:               /projects/
   - title:             Resume
     url:               https://www.linkedin.com/in/tuanchris
   # - title:             Hydejack
