@@ -361,6 +361,6 @@ compress_html:
 sass:
   style:               compressed
 
-plugins:
-  - jekyll-avatar
+# plugins:
+#   - jekyll-avatar
 github_username: tuanchris
