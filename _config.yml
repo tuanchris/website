@@ -52,7 +52,7 @@ menu:
   - title:             About
     url:               /about/
   - title:             Blog
-    url:               /blog/
+    url:               /
   - title:             Books
     url:               https://www.goodreads.com/user/show/41478546-tuan-nguyen
   # - title:             Projects
