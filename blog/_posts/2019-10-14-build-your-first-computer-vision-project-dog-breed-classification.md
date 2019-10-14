@@ -1,10 +1,9 @@
+---
+title: Build Your First Computer Vision Project — Dog Breed Classification
+image: https://cdn-images-1.medium.com/max/10368/0*ey6drJha0Jol63fM
+description: Get started building your first computer vision project in less than 30 minutes.
 
-# Build Your First Computer Vision Project — Dog Breed Classification
-
-Get started building your first computer vision project in less than 30 minutes.
-
-![Photo by [Joe Caione](https://unsplash.com/@joeyc?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)](https://cdn-images-1.medium.com/max/10368/0*ey6drJha0Jol63fM)*Photo by [Joe Caione](https://unsplash.com/@joeyc?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)*
-
+---
 For us, humans, it is pretty easy to tell one dog breed from another. That is if you are talking about 10–20 popular dog breeds. When we are talking about more than 100 kinds of dogs, it is an entirely different story. For a human to correctly and consistently classify a large number of breeds, we need a different approach than just pure memorization. We need to start extracting “features” that correspond to different breeds such as fur color, ear shape, facial shape, tail length, etc. Even then, we need to memorize what breed has what features, and it’s not an easy or fun task.
 
 ![[Image credit](https://medium.com/nanonets/how-to-easily-build-a-dog-breed-image-classification-model-2fd214419cde): It is hard to classify a large number of dog breeds](https://cdn-images-1.medium.com/max/2000/0*XoKKtUOntQ5aG_UL.jpeg)*[Image credit](https://medium.com/nanonets/how-to-easily-build-a-dog-breed-image-classification-model-2fd214419cde): It is hard to classify a large number of dog breeds*
