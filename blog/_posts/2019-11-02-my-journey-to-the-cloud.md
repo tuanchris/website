@@ -38,13 +38,16 @@ Let’s take a step back and answer this question. A quick Google search gives t
 
 To be an advocate of something means that you go out of your way to promote an idea, a cause, or a policy. You can be an advocate of anything from your new favorite video game to social-economic reform.
 
-![[Image source](https://www.16personalities.com/infj-strengths-and-weaknesses): 16 Personalities illustration of an advocate, I’m an INFJ-A by the way.](https://cdn-images-1.medium.com/max/3188/1*f_lvEQphsP-5FqM7MLV5wQ.png)*[Image source](https://www.16personalities.com/infj-strengths-and-weaknesses): 16 Personalities illustration of an advocate, I’m an INFJ-A by the way.*
+![[Image source](https://www.16personalities.com/infj-strengths-and-weaknesses): 16 Personalities illustration of an advocate, I’m an INFJ-A by the way.](https://cdn-images-1.medium.com/max/3188/1*f_lvEQphsP-5FqM7MLV5wQ.png)
+[Image source](https://www.16personalities.com/infj-strengths-and-weaknesses): 16 Personalities illustration of an advocate, I’m an INFJ-A by the way.
 
 You are most likely an advocate already. Remember the last time you recommend your favorite book or a great app you just discovered to your friends? You were an advocate!
 
 ## Benefits of being an advocate
 
-![[Image credit](https://www.alsd.k12.ca.us/Page/168)](https://cdn-images-1.medium.com/max/2000/0*7nc96foWLXBBf6LB.png)*[Image credit](https://www.alsd.k12.ca.us/Page/168)*
+![[Image credit](https://www.alsd.k12.ca.us/Page/168)](https://cdn-images-1.medium.com/max/2000/0*7nc96foWLXBBf6LB.png)
+
+[Image credit](https://www.alsd.k12.ca.us/Page/168)
 
 These are not guaranteed, but if you are an advocate, here are some potential benefits that you can reap.
 
@@ -58,7 +61,9 @@ These are not guaranteed, but if you are an advocate, here are some potential be
 
 ## How to be an advocate?
 
-![[Image credit](https://thehow.loseit.com/)](https://cdn-images-1.medium.com/max/2000/0*V49j2ityzOUAkrr8.png)*[Image credit](https://thehow.loseit.com/)*
+![[Image credit](https://thehow.loseit.com/)](https://cdn-images-1.medium.com/max/2000/0*V49j2ityzOUAkrr8.png)
+
+[Image credit](https://thehow.loseit.com/)
 
 So how can you be an advocate for something, especially at work? Here are some steps that I think will help:
 
@@ -68,7 +73,7 @@ So how can you be an advocate for something, especially at work? Here are some s
 
 * **Learn:** You are trying to convince people to do something new for yours and their own good. Spend time learning about it, know the craft inside out so that you can be convincing.
 
-* **Push: **This is the most critical step, actually pushing your initiative. Be thoughtful, consistent, and relentless in your pursuit. Show people what’s in it for them and go out of your way to do it.
+* **Push:** This is the most critical step, actually pushing your initiative. Be thoughtful, consistent, and relentless in your pursuit. Show people what’s in it for them and go out of your way to do it.
 
 * **Persevere:** Sometimes, things do not go according to plan. Your timing could be off, you cannot seem to convince people, or you are just unlucky. When faced with challenges, revisit step two. If you still believe in what you’re pushing for, push on.
 
