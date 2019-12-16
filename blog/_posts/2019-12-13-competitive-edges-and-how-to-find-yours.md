@@ -4,8 +4,6 @@ image: https://cdn-images-1.medium.com/max/3664/1*YGoBWoAsBdsoixjbXqcfaA.png
 description: Three things I have learned from trying to be more competitive.
 ---
 
-[Image credit](https://www.the-faith.com/featured-posts/the-right-to-difference-in-islam/)
-
 It was 2013, and I was working my first full-time job in Seoul. I was into this game called Line Rangers at the time. It was a quite simple but addictive game. I found myself playing it between my lunch break or when I was waiting for the elevator, or wait for it… in the toilet stall. Until one day, it just hit me.
 > # I was spending roughly 7 hours per week with this game.
 
