@@ -8,8 +8,6 @@ description: Three things I have learned from trying to be more competitive.
 
 How to utilize Jupyter Notebook to manage your SQL queries better.
 
-![[Image credit](https://www.google.com/url?sa=i&url=https%3A%2F%2Fweb.superquery.io%2Fquery-tabs-bigquery%2F&psig=AOvVaw21JNaUReoM0FoRWlsvrtkp&ust=1582695307200000&source=images&cd=vfe&ved=0CA0QjhxqFwoTCKCV3c796-cCFQAAAAAdAAAAABAD): We all been there…](https://cdn-images-1.medium.com/max/2878/0*Acs5ZSdUpjSuKpct.png)*[Image credit](https://www.google.com/url?sa=i&url=https%3A%2F%2Fweb.superquery.io%2Fquery-tabs-bigquery%2F&psig=AOvVaw21JNaUReoM0FoRWlsvrtkp&ust=1582695307200000&source=images&cd=vfe&ved=0CA0QjhxqFwoTCKCV3c796-cCFQAAAAAdAAAAABAD): We all been there…*
-
 If you have the struggle of opening and continuously switching between ten thousand BigQuery tabs, you are not alone. As a data professional, working with SQL queries is a daily task, and if you are not organized, you will quickly drown yourself in Chrome tabs.
 
 Fortunately, you can use Jupyter notebooks with several packages to have a much more pleasant experience dealing with SQL queries. In this post, I will go over the steps to set up the environment and move your workflow to Jupyter notebooks. Whether you are a Data Analyst, Data Engineer, or Data Scientist, having an organized workflow will help boost your productivity significantly.
