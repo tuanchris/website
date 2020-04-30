@@ -1,5 +1,5 @@
 ---
-title: The secret to learning better and living longer
+title: These are unprecedented times…
 image: https://cdn-images-1.medium.com/max/12000/0*erC1se561y7BVcMT
 description: This pandemic is unlike any other ones before it, we all are affected in one way or the other. Even my parents told me that they have never witnessed anything like this before in their lives.
 ---
