@@ -1,4 +1,3 @@
-
 ---
 title: The secret to learning better and living longer
 image: https://cdn-images-1.medium.com/max/12000/0*erC1se561y7BVcMT
