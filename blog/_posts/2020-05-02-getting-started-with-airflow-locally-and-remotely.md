@@ -1,6 +1,6 @@
 ---
 title: Getting started with Airflow locally and remotely
-image: https://www.google.com/url?sa=i&url=https%3A%2F%2Fairflow.apache.org%2F&psig=AOvVaw1MITxyUiqpmXJS5gTUbepF&ust=1588488776752000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCPjBjPzLlOkCFQAAAAAdAAAAABAM
+image: https://airflow.apache.org/images/feature-image.png
 description: Airflow has been around for a while, but it has gained a lot of traction lately. So what is Airflow? How can you use it? And how to set it up locally and remotely?
 ---
 # Getting started with Airflow locally and remotely
@@ -11,6 +11,7 @@ Airflow is a workflow management platform developed and open-source by AirBnB in
 Airflow was developed with four principles in mind, which are scalable, dynamic, extendable, and elegant. **Scalable** means you can effortlessly scale your pipeline horizontally. **Dynamic** means dynamic pipeline generation, **extensible** means you can easily write your custom operators/integrations. Finally, **elegant** means you can have your pipeline lean and explicit with parameters and Jinja templating.
 
 ![Airflow architecture ([source](https://limitlessdatascience.wordpress.com/2019/10/10/apache-airflow-architecture/))](https://cdn-images-1.medium.com/max/2000/1*9niHUeMb_Jh8kKaWmOyytg.png)
+
 *Airflow architecture ([source](https://limitlessdatascience.wordpress.com/2019/10/10/apache-airflow-architecture/))*
 
 Here are some features of Airflow:
@@ -50,11 +51,13 @@ Before we go on to setting up Airflow, let’s look at some basic terminologies.
 DAG is an acronym for a directed acyclic graph, which is a fancy way of describing a graph that is direct and does not form a cycle (a later node never point to an earlier one). Think of DAG in Airflow as a pipeline with nodes (tasks in a DAG, such as “start”, “section-1-task-1”, …) and edges (arrows).
 
 ![Example of an Airflow Dag ([source](https://blog.invivoo.com/apache-airflow-what-it-is/))](https://cdn-images-1.medium.com/max/2000/1*B90BDVbECjk0rwzOYzCeRQ.png)
+
 *Example of an Airflow Dag ([source](https://blog.invivoo.com/apache-airflow-what-it-is/))*
 
 You define a DAG with Python, and you can set all sorts of properties for a dag (pipeline). For example start_date, end_date, execution_schedule, etc.
 
 ![A dag definition in Python](https://cdn-images-1.medium.com/max/2000/1*-ZyDIplx5a4zX7E5vT1EbQ.png)
+
 *A dag definition in Python*
 
 ### Operator, sensor, task
@@ -66,6 +69,7 @@ A sensor is an operator that waits for a specific event to happen. For instance,
 A task is simply an instantiated operator. In your dag definition, you can define task dependency with Python code. That is which execute B, C after task A, and D after task B, C.
 
 ![Example of task dependency definition](https://cdn-images-1.medium.com/max/2000/1*cp11aqpuOdHGIz0O9uoMnw.png)
+
 *Example of task dependency definition*
 
 ## Installation and setup
@@ -109,6 +113,7 @@ That’s it.
 Now if you go to your web browser at localhost:8080, you will be able to see the Airflow UI loaded with many examples. You can trigger some of the DAGs, and it will run on your local machine. Referencing the example DAGs will help in developing a new one.
 
 ![Airflow UI at localhost:8080](https://cdn-images-1.medium.com/max/3826/1*XXzv1_tAXPEI442dhxWGPg.png)
+
 *Airflow UI at localhost:8080*
 
 Now you can define a new DAG file in the directory ~/airflow/dags/ , and Airflow will render your DAG to the UI. I will save the instructions to define a DAG for the next post. Now let’s look at how you can deploy Airflow to a server.
@@ -136,12 +141,14 @@ As mentioned earlier, Airflow’s architecture is complicated, and setting all t
       - ./pgdata:/var/lib/postgresql/data/pgdata
 ~~~
 * Add the following codes to environment variables of webserver, worker, and scheduler to enable basic login. Note that you have to create an admin user using the following [script](https://github.com/salt-formulas/salt-formula-airflow/blob/master/airflow/files/create_user.py) or using Airflow CLI.
+
 ~~~yaml
     - AIRFLOW__WEBSERVER__AUTHENTICATE=True
 
     - AIRFLOW__WEBSERVER__AUTH_BACKEND=airflow.contrib.auth.backends.password_auth
 ~~~
 4. Create .env and requirements.txt (optional): You can create those two files in the repo. You can store environment variables in .env and .requirements.txt for your Airflow deployment. Make sure that you expose them to your containers by adding the following to volumes for webserver, worker, and scheduler.
+
 ~~~yaml
     - ./requirements.txt:/requirements.txt
 ~~~
@@ -150,6 +157,7 @@ As mentioned earlier, Airflow’s architecture is complicated, and setting all t
     docker-compose -f docker-compose-CeleryExecutor.yml up
 ~~~
 6. Create a Makefile for easy management (optional): You can create a Makefile to issue long and repetitive commands. Take a look at mine below:
+
 ~~~make
     up:
 
