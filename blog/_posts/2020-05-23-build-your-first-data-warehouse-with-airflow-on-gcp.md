@@ -128,7 +128,7 @@ The first thing you should do to define a new dag is to import required librarie
 
 Different operators can have the same parameters, and defining all the same parameters every time you use an operator is repetitive. That’s why you should define a default set argument that will be passed to all of your tasks.
 
-<iframe src="https://medium.com/media/cf485437f27f78c304174a62d9d5615f" frameborder=0></iframe>
+<script src="https://gist.github.com/tuanchris/f17cb5c88f8327bdda8942e6ce27675c.js"></script>
 
 ### Define the DAG
 
@@ -136,7 +136,7 @@ The next thing to do is define a DAG. You should give it a unique name, a start 
 
 You can use Airflow [Variable](https://airflow.apache.org/docs/stable/concepts.html#variables) to pass in variables instead of defining them in the DAG definition code like me below. The rule of thumb is for variables that you will change often, use Airflow variables. Otherwise, you can get away with using standard Python variables. Keep in mind that you should not define tons of Airflow variables; otherwise, you will likely overload the metadata database of Airflow.
 
-<iframe src="https://medium.com/media/b8bda0dbb58f96d24bbbd01c89fb6f44" frameborder=0></iframe>
+<script src="https://gist.github.com/tuanchris/f7c7f866400f737d01637d2663adfbaf.js"></script>
 
 ### Define load tasks from GCS
 
@@ -144,13 +144,13 @@ For four of our datasets, we will use the GoogleCloudStorageToBigQueryOperator t
 
 In our example, we load the dimension files in the CSV format and the immigration data in the parquet format. Notice that for CSV files, you should provide a schema to ensure that data are loaded in the expected format. You don’t need to do so with parquet format since a parquet file already come with a schema.
 
-<iframe src="https://medium.com/media/cd9efcd722165ddd3d69fab2eed6ae0f" frameborder=0></iframe>
+<script src="https://gist.github.com/tuanchris/a05b03e6ae08cf3eba73341d905dab8e.js"></script>
 
 ### Define data check
 
 After we load the data to BigQuer, we should check whether our previous tasks run as expected. We can do that by merely checking the row count of our tables to verify if any row exits. You can implement a more sophisticated data quality check here according to your business needs.
 
-<iframe src="https://medium.com/media/311722ca5a57f3743172fa378038f6e0" frameborder=0></iframe>
+<script src="https://gist.github.com/tuanchris/0f47551f52f97017e44c060367cf9d58.js"></script>
 
 ### Create fact and dim tables
 
@@ -158,13 +158,13 @@ With the staging data loaded and checked in the staging dataset, I use the BigQu
 
 Notice that I pass in parameters in my queries in place of datasets and tables. This makes it easier when moving between development and production environments. Check out my SQL queries in the GitHub repo to find out what logic I used for the transformation.
 
-<iframe src="https://medium.com/media/0a8bcdfab57483a46190037c350f2ee5" frameborder=0></iframe>
+<script src="https://gist.github.com/tuanchris/c10dae860abd87019adf6878ee5f45ff.js"></script>
 
 ### Define task dependencies
 
 Finally, we have to define task dependencies, meaning which tasks are dependent on one another. You can do that using the >> or << operator. You can also use a list to group multiple tasks.
 
-<iframe src="https://medium.com/media/e8f9e0175c7fc84b6b491234a3774786" frameborder=0></iframe>
+<script src="https://gist.github.com/tuanchris/437294fd9b58e01c3843982a33542d08.js"></script>
 
 ## The outcome
 
