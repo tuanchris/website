@@ -55,6 +55,8 @@ menu:
     url:               /
   - title:             Books
     url:               https://www.goodreads.com/user/show/41478546-tuan-nguyen
+  - title:             Photos
+    url:               https://tuanchris.github.io/photography/
   # - title:             Projects
   #   url:               /projects/
   - title:             Resume
