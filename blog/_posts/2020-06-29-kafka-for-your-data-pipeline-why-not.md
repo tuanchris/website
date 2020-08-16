@@ -1,10 +1,8 @@
-
-# Kafka, for your data pipeline? Why not?
-
-Create a streaming pipeline using Docker, Kafka, and Kafka Connect
-
-![What we are building in this project](https://cdn-images-1.medium.com/max/6108/1*XSCJnRhJnCD8lldG8PH8zQ.png)*What we are building in this project*
-
+---
+title: Kafka, for your data pipeline? Why not?
+image: https://cdn-images-1.medium.com/max/6108/1*XSCJnRhJnCD8lldG8PH8zQ.png
+description: Create a streaming pipeline using Docker, Kafka, and Kafka Connect
+---
 Kafka was developed and open-sourced by LinkedIn in 2011, and it has since quickly evolved from messaging queue to a full-fledged streaming platform with an exuberant ecosystem. Many tech companies, besides LinkedIn such as Airbnb, Spotify, or Twitter, use Kafka for their mission-critical applications.
 
 Kafka can be used for many things, from messaging, web activities tracking, to log aggregation or stream processing. From my point of view as a data professional, Kafka can be used as a central component of a data streaming pipeline to power real-time use cases such as fraud detection, predictive maintenance, or real-time analytics.
@@ -88,12 +86,10 @@ Now, this is the fun part! Let’s dive right in.
 ### Clone my repo
 
 To get started, clone my repo by typing the following to your terminal:
-
-    [g](https://github.com/tuanchris/kafka-pipeline)it clone [https://github.com/tuanchris/kafka-pipeline](https://github.com/tuanchris/kafka-pipeline)
+```
+    git clone https://github.com/tuanchris/kafka-pipeline
     cd kafka-pipeline
-[**tuanchris/kafka-pipeline**
-*Kafka has risen in popularity lately as businesses rely on it to power mission-critical applications and data…*github.com](https://github.com/tuanchris/kafka-pipeline)
-
+```
 ### Install Docker and docker-compose
 
 We will use Docker and [docker-compose](https://docs.docker.com/compose/install/) for this project, and you can quickly lookup how to install them for your OS.
