@@ -1,10 +1,8 @@
-
-# Data lake on GCP using Terraform
-
-Use Terraform to set up infrastructure-as-code for a Data Lake on Google Cloud Platform.
-
-![A summarize of what we will be building in this project (image by author)](https://cdn-images-1.medium.com/max/5756/1*yQufnZXRxxG-fGtiV1YTqw.png)*A summarize of what we will be building in this project (image by author)*
-
+---
+title: Data lake on GCP using Terraform
+image: https://cdn-images-1.medium.com/max/5756/1*yQufnZXRxxG-fGtiV1YTqw.png
+description: Use Terraform to set up infrastructure-as-code for a Data Lake on Google Cloud Platform.
+---
 Back in the old days, dealing with physical infrastructure is a huge burden, which not only requires teams of experts to manage but also is time-consuming. In the modern cloud computing era, however, you can deploy hundreds of computers instantly to solve your problems with the click of a button. Well, to be realistic, most day to day problems that we are trying to solve won’t require that much computing power.
 
 ![](https://cdn-images-1.medium.com/max/2000/1*huBJuTpAL2jteJMr-D_fsw.png)
@@ -58,9 +56,9 @@ You can see that we have several layers and different teams accessing these laye
 
 You will need to do the following for this project:
 
-* **Download and setup Terraform CLI: **Use [this](https://learn.hashicorp.com/tutorials/terraform/install-cli) getting started guide to install terraform CLI on your local machine.
+* **Download and setup Terraform CLI:** Use [this](https://learn.hashicorp.com/tutorials/terraform/install-cli) getting started guide to install terraform CLI on your local machine.
 
-* **Create a Google Cloud account**: Sign up for a Google Cloud account, if you haven’t already. You will get $300 credit when signing up, more than enough to get you through this tutorial without spending a dollar.
+* **Create a Google Cloud account:** Sign up for a Google Cloud account, if you haven’t already. You will get $300 credit when signing up, more than enough to get you through this tutorial without spending a dollar.
 
 * **Get your billing ID:** Follow the guide [here](https://cloud.google.com/billing/docs/how-to/billing-cycle) to find out your billing ID on GCP. You will need it for later use.
 
@@ -94,7 +92,7 @@ This will set the provider for our terraform project.
 
 Now we can start setting up our infrastructure. We will start by creating two projects for the data lake and the data warehouse. You can have all of your settings in a giant main.tf file, but I recommend separating based on services. Let’s create a new project.tf file where we will define our project.
 
-<iframe src="https://medium.com/media/670c7e63151b6f5ca173500033ba55c6" frameborder=0></iframe>
+<script src="https://gist.github.com/tuanchris/7a7107212b9bca8ff2dba1ec32c8b468.js"></script>
 
 The first line will define the resource that we want to create: google_project. The next bit data-lake is the name of the resource to refer to by other services. Replace project_id with a globally unique ID (include your name or your project), and billing_account with your own.
 
@@ -161,7 +159,7 @@ Instead, we can define a variables.tf file that will be used throughout the proj
 
 In a similar fashion to create the three projects, we can create 4 GCS buckets that we would require: landing, sensitive, work, and backup bucket. Create a gcs.tf file and paste in the following:
 
-<iframe src="https://medium.com/media/dd92540dc3d63151c504be92a91f7510" frameborder=0></iframe>
+<script src="https://gist.github.com/tuanchris/4b97189ebcaf3108a8ce26fc30b7331d.js"></script>
 
 Run terraform apply and input yes , and you will have created four buckets in our data lake project. In the code above, you see that we are using variables to refer to the project and the regions of the buckets. If we need to create the data lake again (perhaps for a different client, or different company), we only need to change the values in variables.tf. Pretty powerful stuff!
 
@@ -169,7 +167,7 @@ Run terraform apply and input yes , and you will have created four buckets in ou
 
 Now we need different permissions for different teams. For example, DE should have access to all buckets, while DS cannot access thesensitive bucket, can only read on landing and backup, but can write on work. We can set that up easily with the following codes:
 
-<iframe src="https://medium.com/media/7cc522b28309eb1d92c1d6621d2121ce" frameborder=0></iframe>
+<script src="https://gist.github.com/tuanchris/e6256ea69c99b43df8787e4b3c411ea0.js"></script>
 
 We would create Google groups to manage people in different teams, making it easier for permission control (instead of having ten different emails here for permission, we only need one email per team).
 
@@ -179,7 +177,7 @@ Keep in mind that if the email does not exist, terraform command will fail.
 
 Next, we will create datasets for our data warehouse. Referring back to the diagram, we have three systems, and thus, will create three corresponding datasets. Unlike GCS, we can define Bigquery ACL in google_bigquery_dataset definition.
 
-<iframe src="https://medium.com/media/7ae47bf55715b19f7cfc5d270eb314c1" frameborder=0></iframe>
+<script src="https://gist.github.com/tuanchris/8dee693eb822070b1208c10d6af8b1bb.js"></script>
 
 We will configure the same ACL for data warehouse datasets. DE will be the owner of those datasets (in a production environment, it recommended to set up a service account to be the owner), DS will be the writer, and DA will be the reader.
 
@@ -193,13 +191,13 @@ For our data marts, we will have similar configurations to the data warehouse, b
 
 For the orchestration part, we will build a VPC network, an orchestration instance, and a static external IP address. If you read through the code below, there is nothing complicated going on here. You can read the Terraform documentation on how to create an instance [here](https://www.terraform.io/docs/providers/google/r/compute_instance.html).
 
-<iframe src="https://medium.com/media/75d9477139ebdbd8daf07f6a3bafb82d" frameborder=0></iframe>
+<script src="https://gist.github.com/tuanchris/cdfa5959d224ec955d2d9bdc971fbe2a.js"></script>
 
 ### IAM permission
 
 Last but not least, we need to set up the IAM permissions for our project. I will only provide an example for this part, but we can map each group to any roles like below.
 
-<iframe src="https://medium.com/media/bc8f2207fd4f9573ea13b7e794d456e9" frameborder=0></iframe>
+<script src="https://gist.github.com/tuanchris/cdff0d5f9261954c97d71dfec03d60f0.js"></script>
 
 ## Conclusion
 
