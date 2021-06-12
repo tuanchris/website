@@ -8,8 +8,6 @@ description: Use Terraform to set up infrastructure-as-code for a Data Lake on G
 
 The tale of a Data Analyst who evolves into an Analytics Engineer and resources so you can use to be like her.
 
-![[Image credit](https://blog.getcensus.com/analytics-engineers-the-new-role-that-owns-the-modern-data-stack/)](https://cdn-images-1.medium.com/max/4000/0*NZTmCXAX3WgMX_pT.png)*[Image credit](https://blog.getcensus.com/analytics-engineers-the-new-role-that-owns-the-modern-data-stack/)*
-
 Analytics Engineer is a new position [coined](https://www.getdbt.com/what-is-analytics-engineering/) (and made possible) by dbt. If a Data Engineer (DE) marries a Data Analyst (DA) and they have a baby girl, that baby girl will be an Analytics Engineer (AE). Well, it does not work that way, but you get the point.
 
 ![[Image Credit](https://www.getdbt.com/what-is-analytics-engineering/)](https://cdn-images-1.medium.com/max/2260/1*qnVbe-WCi147h0mKxk10jQ.png)*[Image Credit](https://www.getdbt.com/what-is-analytics-engineering/)*
@@ -48,7 +46,8 @@ If only our DA gal can do the work that the arrogant DE does without becoming hi
 
 And just like that, our DA gal evolves into an AE.
 
-![[Image credit](http://www.gamersheroes.com/game-guides/how-to-evolve-pikachu-in-pokemon-sword-shield/)](https://cdn-images-1.medium.com/max/2000/0*ZBgFKyScPNTUA6EK)*[Image credit](http://www.gamersheroes.com/game-guides/how-to-evolve-pikachu-in-pokemon-sword-shield/)*
+![[Image credit](http://www.gamersheroes.com/game-guides/how-to-evolve-pikachu-in-pokemon-sword-shield/)](https://cdn-images-1.medium.com/max/2000/0*ZBgFKyScPNTUA6EK)
+*[Image credit](http://www.gamersheroes.com/game-guides/how-to-evolve-pikachu-in-pokemon-sword-shield/)*
 
 I’m kidding. It does not work like that. It takes time, effort, and commitment to learning new stuff. If you can relate to the story of our DA girl, I think this article will benefit you.
 
@@ -140,7 +139,7 @@ Happy learning!
 
 * I can say with confidence that I know what BI tool is right for different needs
 
-### I have become a** Cloud champion**
+### I have become a **Cloud champion**
 
 * I knew about the [many services](https://cloud.google.com/products/) of a major cloud provider
 

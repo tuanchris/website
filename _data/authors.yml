@@ -8,7 +8,7 @@ author1:
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    I am a data science manager with a background in finance and physics.
+    I am the CTO of Joon Solutions, a Data as a Service company.
     My professional experiences revolve around building and managing data science teams,
     analytics infrastructure, and analytics use cases. I love to combine my passion
     for data analytics and cloud computing to help businesses stay ahead in this
@@ -31,7 +31,7 @@ author1:
     github:          tuanchris
     linkedin:        tuanchris
     email:           anhtuan.nguyen@me.com
-    medium:          tuannguyen_6512
+    medium:          tuanchris
 
     # rss:             https://<url>/feed.xml
     # facebook:        <username>
