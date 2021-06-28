@@ -88,7 +88,9 @@ Create a terraform.tfvars file with the following content:
 
 The variables in variables.tf will be used for the configurations of the resources. At the very least, change the value for project_id to a globally unique value of your choosing.
 
-![Image by author](https://cdn-images-1.medium.com/max/2000/1*0PyPxSlFndxwg0k84xlS8A.png)*Image by author*
+![Image by author](https://cdn-images-1.medium.com/max/2000/1*0PyPxSlFndxwg0k84xlS8A.png)
+
+*Image by author*
 
 You can customize the machine type for different services by changing the variables. If you don’t want to use any service, comment it out in the gce.tf file.
 
@@ -110,7 +112,9 @@ Terraform will create a Google Cloud project with our modern data stack. The who
 
 ### Retrieve service accounts for different services
 
-![Image by author](https://cdn-images-1.medium.com/max/2000/0*NPAZ5RPTR_bwWAjJ.png)*Image by author*
+![Image by author](https://cdn-images-1.medium.com/max/2000/0*NPAZ5RPTR_bwWAjJ.png)
+
+*Image by author*
 
 Google recommends using a different service account for different services. The terraform code in the project has created different accounts for different technologies used already. To retrieve a service account for a particular service, run the following command:
 
@@ -140,7 +144,9 @@ You will get a command similar to this: gcloud beta compute ssh --zone "asia-sou
 
 If the Airbyte instance has finished starting up, you can access it by going to your browser and visit localhost:8000. If not, wait five minutes for the instance to complete the installation.
 
-![Image by author](https://cdn-images-1.medium.com/max/2000/1*tyjHEBsTXkBlsGegu3JOxQ.png)*Image by author*
+![Image by author](https://cdn-images-1.medium.com/max/2000/1*tyjHEBsTXkBlsGegu3JOxQ.png)
+
+*Image by author*
 
 Now you can integrate your sources, add a BigQuery destination using the airbyte_sa_key, and have your data in BigQuery in no time.
 
@@ -176,7 +182,9 @@ To access the Metabase UI, get the SSH command similar to the above section with
 
     gcloud beta compute ssh --zone "asia-southeast1-a" "tf-airbyte-demo-metabase"  --project "tf-airbyte-demo" -- -L 3000:localhost:3000 -N -f
 
-![Image by author](https://cdn-images-1.medium.com/max/2000/1*_3XJ8JNhwcPHE4yAq15jsw.png)*Image by author*
+![Image by author](https://cdn-images-1.medium.com/max/2000/1*_3XJ8JNhwcPHE4yAq15jsw.png)
+
+*Image by author*
 
 ## Clean up
 
