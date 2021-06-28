@@ -1,12 +1,9 @@
 ---
 title: Become an Analytics Engineer in 90 days
 image: https://miro.medium.com/max/4000/0*NZTmCXAX3WgMX_pT.png
-description: Use Terraform to set up infrastructure-as-code for a Data Lake on Google Cloud Platform.
+description: The tale of a Data Analyst who evolves into an Analytics Engineer and resources so you can use to be like her.
 ---
-
 # Become an Analytics Engineer in 90 Days
-
-The tale of a Data Analyst who evolves into an Analytics Engineer and resources so you can use to be like her.
 
 Analytics Engineer is a new position [coined](https://www.getdbt.com/what-is-analytics-engineering/) (and made possible) by dbt. If a Data Engineer (DE) marries a Data Analyst (DA) and they have a baby girl, that baby girl will be an Analytics Engineer (AE). Well, it does not work that way, but you get the point.
 
