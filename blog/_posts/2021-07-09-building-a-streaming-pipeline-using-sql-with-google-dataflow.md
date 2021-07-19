@@ -3,7 +3,7 @@ title: Building a streaming pipeline using SQL with Google Dataflow
 image: https://cdn-images-1.medium.com/max/8390/0*BpOzEy9K-2W1ZjwR
 description: Everyone talks about real-time data. Nobody knows how to do it. Everyone thinks everyone else is doing it, so everyone claims they are doing it. JK!
 ---
-
+# Building a streaming pipeline using SQL with Google Dataflow
 ## What is real-time data
 
 Real-time data is data that is delivered the moment it is collected. This enables you to process and query those data to inform decisions or fuel data applications. There are some terminologies out there, such as real-time, near real-time, and batch. The difference between these three is not clearly defined, but you can roughly use the following guideline (IMHO).
@@ -59,9 +59,6 @@ Here are some prerequisites to getting started:
 ![Activate Cloud Shell — GIF by the author](https://cdn-images-1.medium.com/max/2862/1*LSVyaxYbSewD3H-gdYz2Zw.gif)
 
 *Activate Cloud Shell — GIF by the author*
-
-[**tuanchris/dataflow-sql**
-*Permalink Failed to load latest commit information. gcloud pubsub topics create orders Build real-time pipeline with…*github.com](https://github.com/tuanchris/dataflow-sql)
 
 Clone this repo to the Cloudshell by running:
 
