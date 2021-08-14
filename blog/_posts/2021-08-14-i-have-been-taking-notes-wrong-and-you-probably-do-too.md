@@ -5,7 +5,7 @@ description: >
 My review of the book “How to take smart notes” by Sönke Ahrens and my journey towards building a Personal Knowledge Management system. 
 ---
 
-### **I Have Been Taking Notes Wrong, and You Probably Do Too**
+# **I Have Been Taking Notes Wrong, and You Probably Do Too**
 
 ![](https://cdn-images-1.medium.com/max/800/0*u4nayjkcTfkKMVuF.jpg)
 
@@ -17,7 +17,7 @@ I stumbled on the concept of Zettlekasten (German for slip box) a couple of week
 
 This led me down the rabbit hole of searching for new tools, reading articles, and watching Youtube videos. I eventually stumbled on a book titled “How to take smart notes” by Sönke Ahrens, with a pretty good review, and decided to give it a read. This is my review of this book and how it changed me.
 
-### Niklas Luhmann and his slip box
+## Niklas Luhmann and his slip box
 
 ![](https://cdn-images-1.medium.com/max/800/0*j0b8k2MvlCUTo4ab.png)
 
@@ -29,7 +29,7 @@ The slip box system he developed led him to a position in academia as the profes
 
 The word Zettelkasten is German for “slip box,” which refers to a box containing many slips of paper (Ahrens, 2017). Each slip is an idea that connects with other ideas using a linking system, much like hyperlinks in our digital world.
 
-#### Who should read this book
+## Who should read this book
 
 You should read this book if you are: 
 
@@ -40,9 +40,9 @@ You should read this book if you are: 
 
 Or if you want to create a Personal Knowledge Management System. 
 
-### This book in 3 sentences
+## This book in 3 sentences
 
-#### Taking note the wrong way is no better than not taking note at all. 
+### Taking note the wrong way is no better than not taking note at all. 
 
 ![](https://cdn-images-1.medium.com/max/800/0*-9A3NtrhtNCGDoGt)
 
@@ -54,7 +54,7 @@ Taking them notes then feels like a chore rather than an actual productive thing
 
 I have always taken notes in this manner, with a mindset of an archivist and no structure or system to reencounter the notes. I frequently face the blank page problem, not knowing where to start, or not having enough ideas when writing something on Medium. The slip box method offers a solution to this.
 
-#### Keep a low bar for capturing ideas, but be diligent to review them in a couple of days.
+### Keep a low bar for capturing ideas, but be diligent to review them in a couple of days.
 
 ![](https://cdn-images-1.medium.com/max/800/0*1PF688rihKrGfIZ0)
 
@@ -66,7 +66,7 @@ Doing this process, I found that not all of the ideas I jotted down in my fleeti
 
 Many researchers have shown that writing plays a central role in learning. Writing demonstrates that one has learned a concept and shows off the ability to think critically and communicate that concept to others. Writing down literature notes in paragraphs is also a way for me to remember the concept longer.
 
-#### If you want to really understand something, you have to translate it into your own words.
+### If you want to really understand something, you have to translate it into your own words.
 
 ![](https://cdn-images-1.medium.com/max/800/1*sVe2QUKQN9Izo68-M3aftg.png)
 
@@ -78,7 +78,7 @@ The thing that resembles a human brain is the connections between notes. Literat
 
 Whenever I put something in my slip box, I always think about what other notes I can link to and how I will reencounter this note. No longer do I face the blank page problem. Now, on my weekly routine of writing an article on Saturday morning, I turn to my slip box and effortlessly put together a draft for a new article. 
 
-### My top 3 quotes
+## My top 3 quotes
 
 > Writing notes is not the main work. Thinking is. Reading is. Understanding and coming up with ideas is. 
 > (Ahrens, 2017)
@@ -93,7 +93,7 @@ Whenever I put something in my slip box, I always think about what other notes I
 > A truly wise person is not someone who knows everything, but someone who is able to make sense of things by drawing from an extended resource of interpretation schemes. 
 > (Ahrens, 2017)
 
-### How this book changed me
+## How this book changed me
 
 As mentioned above, I stumbled on this book when researching the Zettlekasten method. The book does a great job of explaining the concepts and benefits of taking smart notes. There are some good quotes and anecdotes too. However, the “How” in “How to take smart notes” was neglected and can be better developed. There are many other great resources on the internet to take smarter notes like [this](https://forum.obsidian.md/t/obsidian-zettelkasten/1999) and [this](https://forum.obsidian.md/t/linking-your-thinking-resources/6177).
 
@@ -101,13 +101,13 @@ Software-wise, I started this journey following the [PARA method](https://fortel
 
 I have no idea if Obsidian will be here to stay, or I will replace it with something else in a couple of months. But I am glad that I took the hardest step, which is getting started on this journey. This is just the beginning for me, and there is much more that I need to learn.
 
-### Conclusion
+## Conclusion
 
 -   Take notes with the **mindset of a writer** instead of an archivist.
 -   **Fleeting notes** are ephemeral, imperfect.
 -   **Literature notes** are things you don’t want to forget within a context.
 -   **Permanent notes** are independent notes linking across disciplines.
 
-#### References:
+### References:
 
 -   Ahrens, S. (2017). How to Take Smart Notes: One Simple Technique to Boost Writing, Learning, and Thinking — for Students, Academics, and Nonfiction Book Writers.
