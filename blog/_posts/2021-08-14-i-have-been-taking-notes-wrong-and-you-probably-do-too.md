@@ -23,7 +23,7 @@ This led me down the rabbit hole of searching for new tools, reading articles, a
 
 Illustration of the slip box method — Image from [Wikipedia](https://en.wikipedia.org/wiki/Zettelkasten)
 
-Zettlekasten was developed by Niklas Luhmann, a famous Germa sociologist. He started his career as a lawyer and spent his hours after work following his interests in philosophy, organizational theory, and sociology. His old note-taking method of writing down notes on book margins was not working, so he invented a highly effective system. 
+Zettlekasten was developed by Niklas Luhmann, a famous German sociologist. He started his career as a lawyer and spent his hours after work following his interests in philosophy, organizational theory, and sociology. His old note-taking method of writing down notes on book margins was not working, so he invented a highly effective system. 
 
 The slip box system he developed led him to a position in academia as the professor of sociology at the University of Bielefeld, an amazing feat for an academic outsider like him. He also wrote 90,000 notes in his physical slip box and published 58 books in 30 years.
 
