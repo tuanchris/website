@@ -1,6 +1,6 @@
 ---
 title: # How to Deploy dbt to Production using GitHub Action
-image: https://unsplash.com/?utm_source=medium&utm_medium=referral
+image: https://miro.medium.com/max/1400/0*G_a45H5A_8tVcNfu
 description: >
 While dbt Cloud is great, if you want more control for your dbt pipeline, here’s all you need to know.
 ---
@@ -15,8 +15,6 @@ However, if teams want a bit (or a lot) more customizations when deploying dbt m
 There are many ways to deploy dbt to production. Not all of them are good ways, though. Here are some not so good ways to do that:
 
 ### Spinning up a compute instance?
-
-![](https://miro.medium.com/max/60/0*xoYZkyIRSzmATA2Y?q=20)
 
 ![](https://miro.medium.com/max/1400/0*xoYZkyIRSzmATA2Y)
 
