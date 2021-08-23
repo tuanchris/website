@@ -1,10 +1,10 @@
 ---
-title: # How to Deploy dbt to Production using GitHub Action
-image: https://miro.medium.com/max/1400/0*G_a45H5A_8tVcNfu
+title: # How to Deploy dbt to Production using GitHub Actions
+image: [](https://miro.medium.com/max/1400/0*G_a45H5A_8tVcNfu)
 description: >
 While dbt Cloud is great, if you want more control for your dbt pipeline, here’s all you need to know.
 ---
-# How to Deploy dbt to Production using GitHub Action
+# How to Deploy dbt to Production using GitHub Actions
 
 With the rise of the Modern Data Stack, more and more people use dbt as the main tool for data transformations, aka data modeling. The folks at Fishtown create an amazing dbt Cloud offering suitable for smaller/simpler data teams. With dbt Cloud, any Analyst, seasoned or fresh, can easily start modeling and deploying data transformations pipelines to production.
 
@@ -32,7 +32,7 @@ Moreover, most of the time, your instance will be sitting idle burning your moni
 
 Photo by [Michal Matlon](https://unsplash.com/@michalmatlon?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com/?utm_source=medium&utm_medium=referral)
 
-Well, it depends. If you don’t have Airflow running in productions already, you will probably not need it now. There are more simple/elegant solutions than this (GitHub Action, GitLab CI). Also, this approach shares many disadvantages with using a compute instance, such as waste of resources and no easy way for CI/CD.
+Well, it depends. If you don’t have Airflow running in productions already, you will probably not need it now. There are more simple/elegant solutions than this (GitHub Actions, GitLab CI). Also, this approach shares many disadvantages with using a compute instance, such as waste of resources and no easy way for CI/CD.
 
 However, if your team uses Airflow or any other pipeline orchestrator out there, you can consider writing a dag to trigger dbt. Especially when you have different ingests at different intervals that need to trigger dbt or subsequent tasks afterward.
 
@@ -40,9 +40,9 @@ However, if your team uses Airflow or any other pipeline orchestrator out there,
 
 Since dbt is always deployed using git, utilizing the CI/CD function of your git provider of choice is the best way to deploy dbt to production. You will gain a lot of flexibility with this approach.
 
-Let’s take a look at how we can do that using [GitHub Action](https://github.com/features/actions). The free quota is likely sufficient for you and your team, but if you have a large team or use GitHub Action in other projects, you may hit the quota and need to upgrade.
+Let’s take a look at how we can do that using [GitHub Actions](https://github.com/features/actions). The free quota is likely sufficient for you and your team, but if you have a large team or use GitHub Actions in other projects, you may hit the quota and need to upgrade.
 
-### Setup a dbt profile for GitHub action
+### Setup a dbt profile for GitHub Actions
 
 Create a `profiles.yml`file at the root of your repository. Every time it runs, dbt will look for this file to read in settings.
 
@@ -54,7 +54,7 @@ Notice that we have two different targets for our different environments: dev an
 
 ### Setup credentials
 
-Before running anything using GitHub action, you need a credential for the service to authenticate access to your data warehouse. It is highly recommended that you create a dedicated credential for this instead of using your own account. That way, if you lose access to your account for some reason, the service will still run.
+Before running anything using GitHub Actions, you need a credential for the service to authenticate access to your data warehouse. It is highly recommended that you create a dedicated credential for this instead of using your own account. That way, if you lose access to your account for some reason, the service will still run.
 
 Be sure to grant the necessary permissions to your account too. In our example above, we use BigQuery, which means creating a `github-action` service account, granting it read access to data sources and writing access to data destinations.
 
@@ -62,7 +62,7 @@ If you use a file credential (service account instead of user name and password)
 
 ### dbt run on a schedule
 
-You can use the template below to add a GitHub action job that runs on a cron schedule. Add this file to the `.github/workflows/` folder in your repo. If the folders do not exist, create them.
+You can use the template below to add a GitHub Actions job that runs on a cron schedule. Add this file to the `.github/workflows/` folder in your repo. If the folders do not exist, create them.
 
 <script src="https://gist.github.com/tuanchris/c03f8c4f9e501669fb05e2afffa0267a.js"></script>
 
@@ -90,7 +90,7 @@ The workflow script for this event is very much similar to the ones above. One m
 
 You can see that we don’t need to specify a target because dev is the default target in our `profiles.yml` file. Every time there is a `pull request` to main, this workflow will run.
 
-On smaller models, GitHub action takes only 1 minute to finish everything. Not bad! If you have too many models or too much data, running everything every time does not make sense, though. I will address this in a later post.
+On smaller models, GitHub Actions takes only 1 minute to finish everything. Not bad! If you have too many models or too much data, running everything every time does not make sense, though. I will address this in a later post.
 
 ### Linting with sqlfluff
 
@@ -106,7 +106,7 @@ I’m also sharing our sqlfluff configs [here](https://gist.github.com/tuanchris
 
 That’s all for this week. We have covered:
 
--   Setting up dbt and credentials for GitHub action
+-   Setting up dbt and credentials for GitHub Actions
 -   Running dbt on a cron schedule
 -   Running dbt on a pull request to main
 -   Linting dbt code with sqlfluff
