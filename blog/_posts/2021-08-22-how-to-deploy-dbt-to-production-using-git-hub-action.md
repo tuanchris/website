@@ -1,8 +1,7 @@
 ---
 title: How to Deploy dbt to Production using GitHub Actions
 image: https://miro.medium.com/max/1400/0*G_a45H5A_8tVcNfu
-description: >
-While dbt Cloud is great, if you want more control for your dbt pipeline, here’s all you need to know.
+description: While dbt Cloud is great, if you want more control for your dbt pipeline, here’s all you need to know.
 ---
 # How to Deploy dbt to Production using GitHub Actions
 

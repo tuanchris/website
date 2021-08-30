@@ -1,8 +1,7 @@
 ---
 title: I Have Been Taking Notes Wrong, and You Probably Do Too
 image: https://miro.medium.com/max/1400/0*nMkXRd1n4qUFUvIP
-description: >
-My review of the book “How to take smart notes” by Sönke Ahrens and my journey towards building a Personal Knowledge Management system. 
+description: My review of the book “How to take smart notes” by Sönke Ahrens and my journey towards building a Personal Knowledge Management system. 
 ---
 
 # **I Have Been Taking Notes Wrong, and You Probably Do Too**

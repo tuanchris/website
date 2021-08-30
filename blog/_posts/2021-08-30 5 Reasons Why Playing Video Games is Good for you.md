@@ -1,8 +1,7 @@
 ---
 title: 5 Reasons Why Playing Video Games is Good for you
 image: https://miro.medium.com/max/1400/0*NTC8Bz0M4q4ZO2Bf
-description: >
-Video games don’t deserve the bad raps they often get. Here are the ones that shaped me (literally and figuratively).
+description: Video games don’t deserve the bad raps they often get. Here are the ones that shaped me (literally and figuratively).
 ---
 
 # 5 Reasons Why Playing Video Games is Good for you
