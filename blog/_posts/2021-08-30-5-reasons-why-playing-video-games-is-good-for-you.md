@@ -3,7 +3,6 @@ title: 5 Reasons Why Playing Video Games is Good for you
 image: https://miro.medium.com/max/1400/0*NTC8Bz0M4q4ZO2Bf
 description: Video games don’t deserve the bad raps they often get. Here are the ones that shaped me (literally and figuratively).
 ---
-
 # 5 Reasons Why Playing Video Games is Good for you
 
 The [first video game](https://www.aps.org/publications/apsnews/200810/physicshistory.cfm) ever created was all the way back in 1958. Since then, the global gaming market has grown tremendously and is [worth USD 173.70 billion in 2020](https://www.mordorintelligence.com/industry-reports/global-gaming-market), according to Mordor Intelligence.
