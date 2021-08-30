@@ -1,6 +1,6 @@
 ---
 title: 5 Reasons Why Playing Video Games is Good for you
-image: https://miro.medium.com/max/700/0*NTC8Bz0M4q4ZO2Bf
+image: https://miro.medium.com/max/1400/0*NTC8Bz0M4q4ZO2Bf
 description: >
 Video games don’t deserve the bad raps they often get. Here are the ones that shaped me (literally and figuratively).
 ---
@@ -11,7 +11,7 @@ The [first video game](https://www.aps.org/publications/apsnews/200810/physicshi
 
 I remember playing my first ever video game back when I was 6. It was one of the most famous DOS games, **Prince of Persia**. I spent hours navigating the dungeon and the palace in the game. I have played hundreds of games and spent thousands of hours gaming since then.
 
-![](https://miro.medium.com/max/640/0*6uJhwNMh7fchF0ry.png)
+![](https://miro.medium.com/max/1400/0*6uJhwNMh7fchF0ry.png)
 
 Image from [Wikipedia](https://vi.m.wikipedia.org/wiki/T%E1%BA%ADp_tin:Prince_of_Persia_1_-_MS-DOS_-_Level_3.png)
 
@@ -47,7 +47,7 @@ When you are exposed more to puzzles in games, your brains will build up the neu
 
 Similarly, with creativity, many in-game problems require you to get creative to solve. The traditional or obvious approach may not work, so you must get creative and think outside the box to find a way to solve these problems.
 
-![](https://miro.medium.com/max/700/0*bOQQnClHth06axKF.jpg)
+![](https://miro.medium.com/max/1400/0*bOQQnClHth06axKF.jpg)
 
 Image from [gamek](https://gamek.vn/the-room-old-sins-phan-moi-nhat-cua-tuyet-pham-giai-do-hai-nao-da-cap-ben-android-20180423170236308.chn)
 
@@ -59,7 +59,7 @@ A similar series (albeit a bit older) is **Tales of Monkey Island**. This is an 
 
 A new genre of gaming that is on the rise recently is fitness. Especially during the pandemic, people look to stay in shape in other creative ways. I was never a fitness junkie, so doing repetitive sets was never my thing.
 
-![](https://miro.medium.com/max/700/1*8_cOdFtbg25gI7h7eiA-8Q.png)
+![](https://miro.medium.com/max/1400/1*8_cOdFtbg25gI7h7eiA-8Q.png)
 
 Image from the Righ Fit adventure [website](https://ringfitadventure.nintendo.com/)
 
@@ -69,7 +69,7 @@ There are many great fitness games on the Nintendo Switch platform. Another one 
 
 Last but not least on the Nintendo Switch is the **Just Dance** series. Just like Fitness Boxing 2, you grab a remote and “just” start dancing away. Nothing beats following dancers on your favorite tunes. This is especially fun playing with your friends and family.
 
-![](https://miro.medium.com/max/700/0*qig0XOyhv1dBFQZG.png)
+![](https://miro.medium.com/max/1400/0*qig0XOyhv1dBFQZG.png)
 
 Image from the [Verge](https://www.theverge.com/2019/11/26/20984468/facebook-acquisition-beat-games-beat-saber-vr-studio)
 
@@ -81,7 +81,7 @@ Playing these games burns off serious calories and is my go-to way to stay in sh
 
 To me, gaming is not only fun, but it also helps me gain and hone real-life skills. I learned 10-fingers-typing playing **Mario Teaches Typing**. This helps me tremendously in my technology career later in life. Gaming can make learning mundane stuff much more enjoyable.
 
-![](https://miro.medium.com/max/700/0*4UsTwSsFZiytNTh3.png)
+![](https://miro.medium.com/max/1400/0*4UsTwSsFZiytNTh3.png)
 
 Image from [mobiledailyapp](https://www.mobileappdaily.com/app-review/brilliant)
 
@@ -97,7 +97,7 @@ Then you have collaborative games where you have to work with other people to ac
 
 Similar to how your brains produce dopamine when playing video games when bonding with other human beings, the hormone oxytocin is produced. This hormone plays a central role in building relations with trust and loving feelings.
 
-![](https://miro.medium.com/max/700/0*Dis62I-v-fQoo-ro.jpg)
+![](https://miro.medium.com/max/1400/0*Dis62I-v-fQoo-ro.jpg)
 
 Image from [Tech Advisor](https://www.techadvisor.com/review/super-mario-party-3684727/)
 
