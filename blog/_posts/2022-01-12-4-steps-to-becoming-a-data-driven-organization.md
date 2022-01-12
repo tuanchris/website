@@ -7,6 +7,8 @@ description: Data is the lifeblood of almost every modern organization today. Wi
 
 # 4 Steps to Becoming a Data-Driven Organization
 
+*Guest post by [Bash Sarmiento](https://www.linkedin.com/in/ringwald-rommel-p-sarmiento-ii-69270413a/?originalSubdomain=ph)*
+
 Photo by [Mikael Blomkvist](https://www.pexels.com/@mikael-blomkvist?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels) from [Pexels](https://www.pexels.com/photo/team-having-a-meeting-6476254/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels)
 
 This is especially true when it comes to the way decisions are made in an organization, because better informed choices can lead to more successful outcomes with increased efficiency and productivity for all involved.
