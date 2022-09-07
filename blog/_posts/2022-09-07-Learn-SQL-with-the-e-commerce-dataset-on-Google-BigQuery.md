@@ -68,6 +68,8 @@ There are many, many more questions that you can ask to understand your business
 
 Let’s walk through a couple of questions together. We will start with a basic query to find out how much we are selling, how many orders per day and how many customers purchased. To do that, we have to join orders and order\_items together. Be sure to filter out cancelled and returned orders in your query.
 
+<script src="https://gist.github.com/tuanchris/2194a3d8012cb3f245d99ccbda570ac5.js"></script>
+
 ![](https://miro.medium.com/max/1060/1*2f3UOhA9LW84mlC596A_JQ.png)
 
 Basic business info (image by author)
@@ -75,6 +77,8 @@ Basic business info (image by author)
 We can see that we are selling around $30–40K per day, processing around 400 orders with about 300 customers purchasing. There are some days that we sell a lot more than the average.
 
 Next, let’s look at a slightly more complicated query. I want to know what category customers purchase the most with the first order. To do that, we would have to use a window function to identify first orders. Then we can just group by product category and calculate our revenue and user count.
+
+<script src="https://gist.github.com/tuanchris/50ea8a472b4ce373d80d6e06dcad6e20.js"></script>
 
 ![](https://miro.medium.com/max/1006/1*4AuwMdRpPfZDf-JpfutVVg.png)
 
