@@ -1,0 +1,20 @@
+BEGIN:VCARD
+VERSION:3.0
+N:Nguyen;Tuan;;;
+FN:Tuan Nguyen
+ORG:Joon Solutions
+ADR;TYPE=WORK:Toronto, Canada
+TITLE:CTO
+TEL;TYPE=CELL:+12269983509
+TEL;TYPE=WORK:
+TEL;TYPE=HOME:
+TEL;TYPE=MSG:
+EMAIL;TYPE=WORK:tuan.na@joonsolutions.com 
+URL;TYPE=Digital Business Card:https://tuanchris.com/vcard
+URL:joonsolutions.com
+URL;TYPE=Website:joonsolutions.com
+URL;TYPE=LinkedIn:https://linkedin.com/https://www.linkedin.com/in/tuanchris/
+KEY;TYPE=PGP;ENCODING=b:
+NOTE:Data Consulting
+UID:EnBizCard-100039673
+END:VCARD
