@@ -9,12 +9,14 @@ TEL;TYPE=CELL:+12269983509
 TEL;TYPE=WORK:
 TEL;TYPE=HOME:
 TEL;TYPE=MSG:
-EMAIL;TYPE=WORK:tuan.na@joonsolutions.com 
+EMAIL;TYPE=WORK:tuan.na@joonsolutions.com
 URL;TYPE=Digital Business Card:https://tuanchris.com/vcard
-URL:joonsolutions.com
-URL;TYPE=Website:joonsolutions.com
-URL;TYPE=LinkedIn:https://www.linkedin.com/in/tuanchris/
+URL:https://joonsolutions.com
+URL;TYPE=Website:https://joonsolutions.com
+URL;TYPE=LinkedIn:https://linkedin.com/in/tuanchris
+URL;TYPE=GitHub:https://github.com/tuanchris
+URL;TYPE=Medium:https://medium.com/@tuanchris
 KEY;TYPE=PGP;ENCODING=b:
 NOTE:Data Consulting
-UID:EnBizCard-100039673
+UID:EnBizCard-100495997
 END:VCARD
