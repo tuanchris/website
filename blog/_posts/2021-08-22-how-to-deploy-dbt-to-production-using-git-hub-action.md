@@ -5,6 +5,8 @@ description: While dbt Cloud is great, if you want more control for your dbt pip
 ---
 # How to Deploy dbt to Production using GitHub Actions
 
+Picture taken for FindByPlate – https://findbyplate.com/
+
 With the rise of the Modern Data Stack, more and more people use dbt as the main tool for data transformations, aka data modeling. The folks at Fishtown create an amazing dbt Cloud offering suitable for smaller/simpler data teams. With dbt Cloud, any Analyst, seasoned or fresh, can easily start modeling and deploying data transformations pipelines to production.
 
 However, if teams want a bit (or a lot) more customizations when deploying dbt models to production, they often have to implement it themselves. For example, if I want to do a `dbt run` every time there is a push to production, I cannot do that yet with dbt cloud. Similarly, if I want to lint my code with `sqlfluff` or run custom data checks with `great_expectations`, I am out of luck with dbt Cloud also.
