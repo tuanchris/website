@@ -266,6 +266,9 @@ exclude:
   - .sass-cache
 include:
   - LICENSE.md
+  # Jekyll skips dotfiles/dirs by default; needed so the Tesla Fleet API
+  # public key is published at /.well-known/appspecific/
+  - .well-known
 
 
 # Plugins
